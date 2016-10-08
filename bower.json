@@ -1,0 +1,21 @@
+{
+  "name": "stopwords-ja",
+  "description": "The most comprehensive collection of stopwords for the japanese language.",
+  "keywords": [
+    "japanese",
+    "stopwords",
+    "stop words"
+  ],
+  "homepage": "https://github.com/stopwords-iso/stopwords-ja",
+  "authors": [
+    "Gene Diaz <genediazjr@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "stopwords-ja.json",
+  "ignore": [
+    "**/.*",
+    "raw",
+    "node_modules",
+    "bower_components"
+  ]
+}

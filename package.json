@@ -1,0 +1,26 @@
+{
+  "name": "stopwords-ja",
+  "version": "0.1.0",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
+  "description": "The most comprehensive collection of stopwords for the japanese language.",
+  "keywords": [
+    "japanese",
+    "stopwords",
+    "stop words"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/stopwords-iso/stopwords-ja",
+  "bugs": "https://github.com/stopwords-iso/stopwords-ja/issues",
+  "main": "stopwords-ja.json",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "stopwords-collator -s raw -o stopwords-ja",
+    "test": "npm run build && jsonlint stopwords-ja.json -q"
+  },
+  "devDependencies": {
+    "stopwords-collator": "*",
+    "jsonlint": "1.6.x"
+  }
+}
